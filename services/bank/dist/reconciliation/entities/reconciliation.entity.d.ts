@@ -1,0 +1,30 @@
+import { BaseEntity } from '../../common/entities/base.entity';
+import { BankAccount } from '../../bank-accounts/entities/bank-account.entity';
+import { ReconciliationItem } from './reconciliation-item.entity';
+export declare class Reconciliation extends BaseEntity {
+    bank_account_id: string;
+    reconciliation_date: Date;
+    period_start_date: Date;
+    period_end_date: Date;
+    opening_balance: number;
+    closing_balance: number;
+    statement_opening_balance: number;
+    statement_closing_balance: number;
+    variance: number;
+    status: string;
+    statement_reference: string;
+    statement_date: Date;
+    matched_items_count: number;
+    unmatched_items_count: number;
+    outstanding_credits: number;
+    outstanding_debits: number;
+    approved_by: string;
+    approved_at: Date;
+    notes: string;
+    metadata: any;
+    bank_account: BankAccount;
+    items: ReconciliationItem[];
+    isBalanced(): boolean;
+    getCompletionPercentage(): number;
+    calculateVariance(): number;
+}

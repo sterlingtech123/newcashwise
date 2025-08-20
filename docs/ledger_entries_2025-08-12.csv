@@ -1,0 +1,9 @@
+Date,Reference,Description,Account,Debit,Credit,Balance,Type,Status,MDA
+2025-07-25 13:01:07,MOF-2025-0001,"Payment Request: Purchase of new Laptops and Office Softwares","0101001 - Office Equipment",1500000,0,1500000,Payment Request,confirmed,MOF
+2025-07-27 09:35:27,TEST-2025-0001,"Payment Request: Test Budget Verified Request","0101001 - Office Equipment",500000,0,2000000,Payment Request,completed,MOF
+2025-07-28 21:42:35,TEST-2025-0001,"Payment Completed: Test Budget Verified Request","Cash/Bank - First Bank Nigeria",0,500000,1500000,Payment Completion,completed,MOF
+2025-07-28 22:46:58,MOF-2025-0003,"Payment Request: Purchase of GIS software","0101002 - Computer Equipment",2500000,0,4000000,Payment Request,confirmed,MOF
+2025-07-29 00:49:04,MOF-2025-0004,"Payment Request: Purchase of GIS software","0101002 - Computer Equipment",2000000,0,6000000,Payment Request,confirmed,MOF
+2025-07-29 11:12:05,MOE-2025-0001,"Payment Request: Purchase of Laptops","2101 - Software Licensing and Laptops",3000000,0,9000000,Payment Request,confirmed,MOE
+2025-08-03 11:32:07,MOE-2025-0002,"Payment Request: Purchase of Budget software","2101 - Software Licensing and Laptops",1750000,0,10750000,Payment Request,draft,MOE
+2025-08-11 16:34:27,MOF-2025-0005,"Payment Request: Acquisition of Computer Desktops for Various Ministries","0101002 - Computer Equipment",100000000,0,110750000,Payment Request,rejected,MOF
